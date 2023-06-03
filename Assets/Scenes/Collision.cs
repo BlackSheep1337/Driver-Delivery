@@ -8,4 +8,9 @@ public class Collision : MonoBehaviour
     {
         Debug.Log("You colided mocker futher");
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("You are triggered");
+    }
 }
